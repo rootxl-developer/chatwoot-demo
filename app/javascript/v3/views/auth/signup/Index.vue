@@ -17,9 +17,9 @@ export default {
   },
   computed: {
     ...mapGetters({ globalConfig: 'globalConfig/get' }),
-    isAChatwootInstance() {
-      return this.globalConfig.installationName === 'Chatwoot';
-    },
+      isAChatwootInstance() {
+    return this.globalConfig.installationName === 'RootXL';
+  },
   },
   beforeMount() {
     this.isLoading = this.isAChatwootInstance;
